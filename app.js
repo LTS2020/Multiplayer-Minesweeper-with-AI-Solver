@@ -251,7 +251,7 @@ app.get('/new', (req, res) => {
 });
 // returns minimize.js (uglified client.js) when client.js is called
 app.get('/client.js', (req, res) => {
-  res.sendFile(__dirname + '/client/minimize.js');
+  res.sendFile(__dirname + '/client/client.js');
 });
 app.get('/favicon.png', (req, res) => {
   res.sendFile(__dirname + '/img/favicon.png');
